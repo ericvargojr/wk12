@@ -1,0 +1,11 @@
+# Umich GitLab
+Host gitlab
+	Hostname gitlab.com
+	User git
+	IdentityFile ~/.ssh/epvargo_rsa
+
+# CAEN
+Host mmd
+	Hostname login.engin.umich.edu
+	User epvargo
+	Compression yes
